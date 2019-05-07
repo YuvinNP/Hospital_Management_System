@@ -1,0 +1,283 @@
+@charset "ISO-8859-1";
+/*.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }*/
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.slideshow-container {
+    max-width: 105%;
+    max-height: 100%;
+    position: relative;
+    margin-right: 15px;
+    margin-top: -37.8%;
+    z-index: -2;
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 50px;
+    padding: 8px 12px;
+    font-family: 'San Francisco';
+    font-style: italic;
+    position: absolute;
+    bottom: 170px;
+    width: 100%;
+    text-align: center;
+    filter: brightness(100%);
+}
+
+.text2 {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+    font-style: italic;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+    text-align: center;
+    filter: brightness(90%);
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin-top: 30%;
+    background-color: azure;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    z-index: 5;
+}
+
+.active {
+    background-color: yellow;
+}
+
+.image {
+    filter: brightness(70%);
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+.adMenu {
+    margin-right: 20%;
+    margin-top: -30%;
+    position: fixed;
+    height: 100px;
+    z-index: 3;
+}
+
+.login {
+    margin-left: 250%;
+    margin-top: -120%;
+    transition: transform .2s;
+}
+
+.echannel {
+    margin-left: 380%;
+    margin-top: 30%;
+    transition: transform .2s;
+}
+
+.appoinment {
+    margin-left: 246%;
+    margin-top: -17%;
+    transition: transform .2s;
+}
+
+.payments {
+    margin-left: 380%;
+    margin-top: 90%;
+    transition: transform .2s;
+}
+
+.login,
+.echannel,
+.appoinment,
+.payments {
+    z-index: 2;
+}
+
+.login:hover,
+.echannel:hover,
+.appoinment:hover,
+.payments:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.text,
+.text2 {
+    animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.description1 {
+    text-align: center;
+    margin-top: -2%;
+}
+
+.par1 {
+    font-size: 35px;
+    color: rgb(13, 143, 187);
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+.par2 {
+    margin-top: -2%;
+    font-size: 50px;
+    color: rgb(252, 224, 69);
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+.par3 {
+    margin-top: -2%;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+.par4 {
+    margin-left: 55%;
+    margin-top: 3%;
+    font-size: 18px;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+.par5 {
+    margin-left: 55%;
+    margin-top: -27%;
+    font-size: 30px;
+    font-style: normal;
+    color: #f1c319;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+.hospitalwall {
+    margin-left: 3%;
+    margin-top: 3%;
+    filter: brightness(80%);
+}
+
+.description2 {
+    margin-top: 4%;
+    background-color: rgb(240, 238, 238);
+    height: 500px;
+    font-style: italic;
+}
+
+.aboutus:hover,
+.register:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.section1 {
+    margin-right: 40%;
+    margin-top: -2%;
+}
+
+.services {
+    margin-top: 3%;
+    height: 250px;
+    background-color: #1a908f;
+}
+
+.servicepar {
+    text-align: center;
+    color: rgb(252, 224, 69);
+    margin-top: -11%;
+    font-size: 30px;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 25px 25px;
+    border: none;
+    width: 100px;
+    height: 200px;
+    margin-left: 46%;
+    font-size: 16px;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+    color: #1a908f;
+    transition: transform .2s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.laptop {
+    margin-left: 2%;
+    filter: brightness(60%);
+}

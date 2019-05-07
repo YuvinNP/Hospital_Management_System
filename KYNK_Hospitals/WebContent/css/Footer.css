@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+footer {
+    height: 280px;
+    background-color: #1a908f;
+    margin-top: 4%;
+    width: 101.5%;
+}
+
+.footer-links {
+    list-style: none;
+    margin-right: 95%;
+    display: inline;
+}
+
+.ftext {
+    color: white;
+}
+
+.ftext:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.follow1 {
+    margin-top: -15%;
+    margin-right: 44%;
+    font-family: "Roboto";
+    color: white;
+    font-size: 27px;
+}
+
+.fb,
+.insta,
+.yout,
+.linked {
+    height: 50px;
+    margin-left: -10px;
+    transition: transform .2s;
+}
+
+.fb:hover,
+.insta:hover,
+.yout:hover,
+.linked:hover {
+    height: 50px;
+    margin-left: -12px;
+    transform: scale(1.2);
+}
+
+.copyright {
+    font-family: "Roboto";
+    color: white;
+}
+
+.contacticons1 {
+    margin-top: -16%;
+}

@@ -1,0 +1,277 @@
+@charset "ISO-8859-1";
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .parallax {
+            /* The image used */
+            background-image: url('hospital2.jpg');
+            /* Full height */
+            width: 100%;
+            height: 600px;
+            filter: brightness(70%);
+            top: 100px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .parallax2 {
+            /* The image used */
+            background-image: url('hospital1.jpg');
+            /* Full height */
+            width: 100%;
+            height: 600px;
+            filter: brightness(70%);
+            top: 100px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .parallax3 {
+            /* The image used */
+            background-image: url('hospital3.jpg');
+            /* Full height */
+            width: 100%;
+            height: 600px;
+            filter: brightness(70%);
+            top: 100px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .parallax4 {
+            /* The image used */
+            background-image: url('hospital2.jpg');
+            /* Full height */
+            width: 100%;
+            height: 600px;
+            filter: brightness(70%);
+            top: 100px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+        /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+        
+        @media only screen and (max-device-width: 1366px) {
+            .parallax,
+            .parallax2,
+            .parallax3,
+            .parallax4 {
+                background-attachment: scroll;
+            }
+        }
+        
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+        
+        .caption2 {
+            position: absolute;
+            left: 0;
+            top: 180%;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+        
+        .description1 {
+            text-align: center;
+            margin-top: 2%;
+            height: 340px;
+            filter: opacity(80%);
+        }
+        
+        .hospitalwall {
+            margin-left: 3%;
+            margin-top: 3%;
+            filter: brightness(80%);
+        }
+        
+        .description2 {
+            margin-top: 0%;
+            background-color: rgb(240, 238, 238);
+            height: 540px;
+            font-style: italic;
+        }
+        
+        .par1 {
+            font-size: 32px;
+            color: rgb(13, 143, 187);
+            font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+        }
+        
+        .par2 {
+            margin-top: -2%;
+            font-size: 42px;
+            color: #f1c319;
+            font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+        }
+        
+        .par3 {
+            margin-top: -2%;
+            text-align: center;
+            font-size: 19px;
+            height: 400px;
+            font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+        }
+        
+        .par4 {
+            margin-left: 55%;
+            margin-top: 3%;
+            height: 300px;
+            font-size: 18px;
+            font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+        }
+        
+        .par5 {
+            margin-left: 55%;
+            margin-top: -27%;
+            font-size: 30px;
+            font-style: normal;
+            color: #f1c319;
+            font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+        }
+        
+        .text {
+            color: #f2f2f2;
+            font-size: 50px;
+            padding: 8px 12px;
+            font-family: "Roboto";
+            position: absolute;
+            top: 10%;
+            width: 100%;
+            text-align: center;
+            filter: brightness(100%);
+        }
+        
+        .text3 {
+            color: #f2f2f2;
+            font-size: 50px;
+            padding: 8px 12px;
+            font-family: "Roboto";
+            position: absolute;
+            top: 80%;
+            width: 100%;
+            text-align: center;
+            filter: brightness(100%);
+        }
+        
+        .text2,
+        .text4 {
+            color: #f2f2f2;
+            font-size: 23px;
+            font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+            padding: 8px 12px;
+            position: absolute;
+            top: 80px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .input-container {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            width: 60%;
+            margin-bottom: 5px;
+            margin-top: 30px;
+            margin-left: 18%;
+        }
+        
+        .icon {
+            padding: 15px;
+            background: dodgerblue;
+            color: white;
+            min-width: 20px;
+            text-align: center;
+            border-radius: 40px 0px 0px 40px;
+        }
+        
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            outline: none;
+            border-radius: 0px 40px 40px 0px;
+        }
+        
+        .input-field:focus {
+            border: 2px solid dodgerblue;
+        }
+        /* Set a style for the submit button */
+        
+        .btn {
+            background-color: dodgerblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            margin-top: 20px;
+            height: 55px;
+            cursor: pointer;
+            width: 60%;
+            opacity: 0.9;
+            margin-left: 18%;
+            border-style: solid;
+            border-radius: 40px;
+        }
+        
+        .btn:hover {
+            opacity: 1;
+        }
+        /* Add styles to the form container */
+        
+        .form-container {
+            margin: 100px;
+            left: 400px;
+            margin-top: 0%;
+            width: 38%;
+            padding: 20px;
+            font-family: "Roboto";
+            font-style: none;
+            background-color: white;
+            height: 350px;
+            position: relative;
+            display: block;
+        }
+        
+        h1 {
+            color: #ffffff;
+            margin-left: 40%;
+        }
+        
+        h3 {
+            color: #ffffff;
+            font-size: 17px;
+        }
+        
+        h4 {
+            color: dodgerblue;
+            margin-top: 5px;
+            margin-left: -7px;
+            font-style: none;
+        }
+        
+        .fa-user {
+            padding: 6px 6px 6px;
+        }

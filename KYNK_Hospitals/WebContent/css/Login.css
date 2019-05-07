@@ -1,0 +1,143 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+}
+footer {
+    height: 280px;
+    background-color: #1a908f;
+    margin-top: 43%;
+}
+
+.footer-links {
+    list-style: none;
+    margin-right: 95%;
+    display: inline;
+}
+
+.ftext {
+    color: white;
+}
+
+.ftext:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.follow1 {
+    margin-top: -15%;
+    margin-right: 24%;
+    font-family: "Roboto";
+    color: white;
+    font-size: 27px;
+}
+
+.fb, .insta, .yout, .linked {
+    height: 50px;
+    margin-left: -10px;
+    transition: transform .2s;
+}
+
+.fb:hover, .insta:hover, .yout:hover, .linked:hover {
+    height: 50px;
+    margin-left: -12px;
+    transform: scale(1.2);
+}
+.copyright{
+    font-family: "Roboto";
+    color: white;
+}
+
+.contacticons1{
+ margin-top: -16%;
+}
+
+/*body*/
+.bg {
+
+  background-image: url("images/bg1.jpg");
+  height: 100%;
+  margin-bottom: -3%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*position:;*/
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.icon {
+  padding: 15px;
+  background: dodgerblue;
+  color: white;
+  width: 40px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #000099;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* Add styles to the form container */
+.form-container {
+  background-position: center;
+  position: absolute;
+  right: 20%;
+  margin:100px;
+  margin-top: 8%;
+  min-width: 45%;
+  padding: 20px;
+  font-family: "Roboto";
+  font-style: none;
+  border-style: solid;
+  border-color:  #f1c319;
+  
+}
+h1{
+  color: #ffffff;
+  margin-left: 40%;
+}
+h3{
+  color:#ffffff;
+  font-size: 17px;
+  
+}
+h4{
+    color: dodgerblue;
+    margin-top:5px;
+    margin-left: -10px;
+    font-style:none;
+
+}
+
+.fa-user{
+  padding: 10px 10px 10px;
+}

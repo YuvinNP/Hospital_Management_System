@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+.text1 {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #f1c319;
+    margin-left: 10%;
+  
+}
+
+.text2 {
+    font-family: "Roboto";
+    margin-left: 10%;
+    font-size: 17px;
+}
+
+.building {
+    margin-left: 10%;
+    filter: brightness(60%);
+}
+
+.vision1, .mission1 {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 1%;
+    color: #f1c319;
+}
+
+.vision2, .mission2 {
+    margin-left: 1%;
+    font-size: 22px;
+    font-family: "Roboto";
+    
+}
+
+.aboutus, .vision, .mission {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .1
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .1
+    }
+    to {
+        opacity: 1
+    }
+}
